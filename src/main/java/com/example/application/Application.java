@@ -14,6 +14,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @Theme(value = "flowcrmtutorial")
+// pengaturan offline
+// @PWA(name = "Vaadin CRM", shortName = "CRM", offlinePath = "offline.html",
+// offlineResources = { "images/logo.png",
+// "images/offline.png" })
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {
